@@ -52,7 +52,7 @@ public class Level3CodingExam {
 		HashMap<String, String> hashmap1 = new HashMap<String, String>();
 		hashmap1.put("Alice", "Healthy");
 		hashmap1.put("Mary", "Ecstatic");
-		hashmap1.put("Bob", "Happy");
+		hashmap1.put("Bob", "Happy");   
 		hashmap1.put("Chuck", "Fine");
 		hashmap1.put("Felix", "Sick");
 
