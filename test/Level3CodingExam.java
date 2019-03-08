@@ -38,6 +38,7 @@ public class Level3CodingExam {
 		votes.add("pope francis");
 		votes.add("edward Snowden");
 
+		System.out.println(new VoteProcessor().calculateElectionWinner(votes));
 		assertEquals("TIE", new VoteProcessor().calculateElectionWinner(votes));
 	}
 
