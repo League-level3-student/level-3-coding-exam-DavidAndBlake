@@ -9,19 +9,17 @@ public class VoteProcessor {
 			if (votes.get(i).equalsIgnoreCase("Pope Francis")) {
 				PopeFrancisVotes++;
 			}
-			if (votes.get(i).equalsIgnoreCase("Edwqrd Snowden")) {
+			if (votes.get(i).equalsIgnoreCase("Edward Snowden")) {
 				EdwardSnowdenVotes++;
 			}
-			if (PopeFrancisVotes == EdwardSnowdenVotes) {
-				return("TIE");
-			}
-			if (PopeFrancisVotes > EdwardSnowdenVotes) {
-				return ("pope francis");
-			}
-			else {
-				return("edward snowden");
-			}
 		}
-		return null;
+		if (PopeFrancisVotes == EdwardSnowdenVotes) {
+			return ("TIE");
+		}
+		if (PopeFrancisVotes > EdwardSnowdenVotes) {
+			return ("pope francis");
+		} else {
+			return ("edward snowden");
+		}
 	}
 }
